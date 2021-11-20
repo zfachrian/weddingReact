@@ -5,7 +5,7 @@ import { Link } from 'gatsby';
 import { styWrapper, styFlex } from './styles';
 
 function ConfirmationSection({ isInvitation, guestName, codeLink }) {
-  if (!isInvitation) return null;
+  if (isInvitation) return null;
 
   return (
     <div id="fh5co-started" className="fh5co-bg" css={styWrapper}>
