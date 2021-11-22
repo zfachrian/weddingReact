@@ -16,6 +16,7 @@ import ConfirmationSection from '@components/ConfirmationSection';
 import FooterSection from '@components/FooterSection';
 import CovidSection from '@components/Covid19';
 import FloatingMusic from '@components/FloatingMusic/Loadable';
+import Angpao from '@components/Angpao';
 
 function Home({ location }) {
   const guestName = decodeURIComponent(getQueryValue(location, 'to') || '');
@@ -44,6 +45,7 @@ function Home({ location }) {
         <PhotoSection />
         <WishesSection />
         <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
+        <Angpao />
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
     );

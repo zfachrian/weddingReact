@@ -25,10 +25,15 @@ function WeddingSection({ isInvitation }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
-              <h2 className="main-font main-font__wedding">Akad Nikah dan Syukuran Pernikahan</h2>
+              <h2 className="main-font main-font__wedding">Akad Nikah dan Resepsi Pernikahan</h2>
               <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
             </div>
           </div>
+          
+          <div className="col-m-10 col-md-offset-1">
+          <h1 className="main-font main-font__wedding"> </h1>
+          </div>
+
           <div className="row">
             {!isInvitation && renderGuestInfo()}
             {isInvitation && (
@@ -40,7 +45,7 @@ function WeddingSection({ isInvitation }) {
                   description="Rasuna Hills Residence, Bandar Lampung "
                 />
                 <WeddingInfoBox
-                  title="Syukuran Pernikahan"
+                  title="Resepsi Pernikahan"
                   time="19.00 - Selesai"
                   date="Sabtu, 19 Desember 2021"
                   description="Rasuna Hills Residence, Bandar Lampung"
