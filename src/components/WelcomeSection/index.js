@@ -78,8 +78,8 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               {isInvitation && (
                 <div className="row" css={styButtonWrapper}>
                   <div className="col-md-3">
-                    <Link to={`/e-ticket?${codeLink}`}>
-                      <button className="btn btn-default btn-block">Lihat e-Ticket</button>
+                    <Link to={`https://calendar.google.com/event?action=TEMPLATE&tmeid=NTNrcjd1cWFtMDdqZDZsaGRqZzZuM3VsZWkgenVoYWRhY2htYWRmYWNocmlhbkBt&tmsrc=zuhadachmadfachrian%40gmail.com`}>
+                      <button className="btn btn-default btn-block">SAVE THE DATE</button>
                     </Link>
                   </div>
                 </div>
