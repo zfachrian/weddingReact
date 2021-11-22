@@ -22,9 +22,9 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
         </div>
         <div className="row" css={styFlex}>
           <div className="col-md-3">
-            <Link to={`https://forms.gle/kyyvKZEPms1TNs6S8`}>
+            <a href={`https://forms.gle/kyyvKZEPms1TNs6S8`}>
               <button className="btn btn-default btn-block">Konfirmasi Hadir</button>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
