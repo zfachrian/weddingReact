@@ -1046,6 +1046,10 @@ form label {
   background: rgba(0, 0, 0, 0.04);
 }
 
+.fh5co-section-navy {
+  background: rgba(48, 1, 255, 0.04);
+}
+
 .couple-wrap {
   width: 90%;
   margin: 0 auto;
