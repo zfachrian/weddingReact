@@ -6,9 +6,10 @@ function FooterSection({ isInvitation }) {
   return (
     <Fragment>
       {!isInvitation && (
-        <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
+      <div id="fh5co-started" className="fh5co-bg" css={styWrapper}>
+        <div className="overlay"></div>
           <div className="container">
-            <div className="row">
+          <div className="row">
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                 <h2 className="main-font">Terima Kasih</h2>
                 <p className="info">

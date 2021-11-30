@@ -39,6 +39,9 @@ export const styWrapper = css`
       margin-bottom: 8px;
     }
   }
+  p {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
 `;
 
 export const styButtonWrapper = css`
@@ -56,7 +59,7 @@ export const styButtonWrapper = css`
     color: #fff;
     font-weight: 500px;
     border-radius: 24px;
-    background: #f14e95;
+    background: #;
     padding: 8px 16px;
   }
 
@@ -69,4 +72,9 @@ export const styButtonWrapper = css`
     margin-right: 8px;
     margin-bottom: 0;
   }
+`;
+
+export const styFlex = css`
+  display: flex;
+  justify-content: center;
 `;
