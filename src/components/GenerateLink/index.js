@@ -157,7 +157,7 @@ function GenerateLink() {
                 <label for="exampleInputEmail1">Tipe Link</label>
                 <select class="form-control" value={type} onChange={handleChange}>
                   <option value={PERSONAL}>Individu</option>
-                  <option value={ALL}>Semua Undangan</option>
+                  {/* <option value={ALL}>Semua Undangan</option> */}
                 </select>
               </div>
               {renderContentType()}
