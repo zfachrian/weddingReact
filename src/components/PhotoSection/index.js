@@ -10,7 +10,7 @@ function PhotoSection() {
         title="Pre-Wedding Azka & Anti"
         width="100%"
         height="360px"
-        src="https://www.youtube.com/embed/eru_H6-7CSw"
+        src="https://www.youtube.com/embed/g0siNlNM96Y"
         frameBorder="0"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen

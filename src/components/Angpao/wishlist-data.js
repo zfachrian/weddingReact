@@ -1,4 +1,4 @@
-import QRimg from '@assets/images/qrimg.png';
+import QRimg from '@assets/images/qrimg.jpg';
 
 export const wishlist = [
   {
