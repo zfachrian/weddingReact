@@ -9,7 +9,7 @@ function WishesSection() {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading ">
               <h2 className="main-font">Ungkapan Bahagia</h2>
-              <p>Bentuk ungkapan suka cita bagi bara undangan yang berhalangan hadir</p>
+              <p>Bentuk ungkapan suka cita bagi para undangan</p>
             </div>
           </div>
           <div className="row">

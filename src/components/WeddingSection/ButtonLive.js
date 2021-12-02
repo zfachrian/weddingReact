@@ -8,11 +8,11 @@ function ButtonLive() {
     <div className="row">
       <div className="col-md-12">
         <p className="text__live">Hadir secara virtual melalui siaran langsung instagram: </p>
-        <a href="https://www.instagram.com/zfachrian/" target="_blank" rel="noreferrer">
+        <a href="https://www.instagram.com/anntiramadhani/" target="_blank" rel="noreferrer">
           <div css={styButtonWrapper}>
             <div className="img__wrapper">
               <img src={IconIg} alt="Live IG" />
-              <span>@zfachrian</span>
+              <span>@anntiramadhani</span>
             </div>
           </div>
         </a>

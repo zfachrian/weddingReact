@@ -17,28 +17,28 @@ export const stories = [
     date: '2013',
     description:
       'Hari demi hari berlalu, "tuan-nona-kesepian" menjadi sangat dekat pada saat itu. Berawal dari saling ejek, saling melempar canda, hingga berujung tawa. Masih lekat di ingatan, Azka biasa memanggil Annti dengan sebutan "gendut".',
-    image: ImgKembaliBerjumpa,
+    image: '',
   },
   {
     title: 'Awal Kisah Cinta',
     date: '15 April 2013',
     description:
       'Tepat pada 15 April 2013, di bioskop, ketika serius menonton film, laki-laki baik ini menyatakan perasaannya dengan sangat lugas, yakin meminta perempuan yang dipanggilnya “gendut” itu untuk menjadi kekasihnya.',
-    image: ImgJakartaKroasia,
+    image: '',
   },
   {
     title: 'Kisah Bahagia',
-    date: '2018 - 2019',
+    date: '2013 - 2021',
     description:
       'Hari demi hari dilalui dengan penuh suka, duka, ceria dan bahagia. Hahaha. Dimana ada Azka selalu ada Annti—si dua sejoli. Janji-janji manis tidak pernah terucap dari mulut seorang Azka, tapi pembuktian luar biasa yang selalu ada. Azka selalu memastikan kalau perempuannya ini tidak akan pernah sedih dan selalu bahagia, bagaimanapun caranya.',
-    image: ImgBoarding,
+    image: '',
   },
   {
-    title: 'Menuju Hubungan Serius',
+    title: 'Melangkah Menuju Serius',
     date: '15 April 2021',
     description:
       'Tepat 8 tahun usia hubungan yang kami jalani. Merasa sudah sangat cukup  mengenal satu sama lain, maka kami putuskan untuk berkomitmen lebih jauh. Mempertemukan keluarga dan merencanakan hari bahagia. Alhamdulillahirabbil alamin, atas izin Allah dan restu dari keluarga besar insya Allah hubungan ini akan berjalan hingga maut memisahkan.',
-    image: ImgKembaliKeIndonesia,
+    image: '',
   },
   // {
   //   title: 'Ndodok Lawang',
