@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import WishesContainer from './WishesContainer';
-// import Modal from './Modal';
 
 function Angpao() {
+  const [showResult, setShowResult] = useState(false);
   return (
     <div id="fh5co-testimonial" className="fh5co-section-gray">
       <div className="container">
@@ -12,7 +12,9 @@ function Angpao() {
               <h2 className="main-font">Ungkapan Bahagia</h2>
               <p>Bentuk ungkapan suka cita dari para undangan</p>
              
-              {/* <Modal /> */}
+              <button type="submit" class="btn btn-primary" onClick={() => setShowResult(true)}>
+                Kirim Hadiah
+              </button>
               <WishesContainer />
             </div>
           </div>

@@ -4,6 +4,7 @@ import Moletta from '@assets/images/w-moletta.jpg';
 import hapsari from '@assets/images/w-hapsari.jpg';
 import dianara from '@assets/images/w-dianara.jpg';
 import rahma from '@assets/images/w-rahma.jpg';
+import joko from '@assets/images/w-joko.jpg';
 
 export const wishlist = [
   {
@@ -41,6 +42,12 @@ export const wishlist = [
     infoName: 'Sahabat Azka & Annti',
     description: `"Happy wedding duo lovebirds tergemas AzkAnnti!!💐 Congrats for your happy ending of 8y7m love journey🖤 Terharu banget dari awal dapet kabar kalo lo mau married sama azka, walaupun gak banyak tau gimananya cuma kalo liat kalian berdua selalu nyebut dlm hati “dah plis nikah aja”. Once again! Congratulations for both of you, happily ever after🥰"`,
     image: rahma,
+  },
+  {
+    name: 'Joko',
+    infoName: 'Sahabat Azka & Annti',
+    description: `"Wiuw setelah sekian lama akhirnya #penANTIanAZKA has come to an end. Happy wedding Annti & Azka! Wishing you guys a lifetime of love and a never ending happiness. So happy for both of u sobat sobatku 💛✨"`,
+    image: joko,
   },
   
 ];
