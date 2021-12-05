@@ -2,8 +2,8 @@ import QRimg from '@assets/images/qrimg.jpg';
 
 export const wishlist = [
   {
-    name: '0863837464848',
-    infoName: 'Bank BCA an. Azka Gilang Rifardi',
+    name: 'BCA - 8905413747',
+    infoName: 'an. Azka Gilang Rifardi',
     // description: `0863837464848`,
     image: QRimg,
   },

@@ -9,8 +9,9 @@ function WishesItem({ image, name, infoName, description, isActive }) {
     return (
       <div className="item" css={styWrapperItem}>
         <div className={`testimony-slide text-center ${isActive ? 'active' : 'hide'}`}>
+          <br></br>
           <div class="text-center col-m-4">
-            <img src={image} alt="user" loading="lazy" class="rounded" alt="..." />
+            <img src={image} alt="user" class="img-responsive center-block rounded" />
           </div>
           <div>
             <h1></h1>

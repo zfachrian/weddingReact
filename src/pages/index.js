@@ -43,8 +43,8 @@ function Home({ location }) {
         {isInvitation && <LocationSection />}
         <StorySection />
         <PhotoSection />
-        <WishesSection />
         <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
+        <WishesSection />
         <Angpao />
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
