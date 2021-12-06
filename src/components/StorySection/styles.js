@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-import Background from '@assets/images/deffaultBack.jpg';
+import Background from '@assets/images/dustybackground.jpg';
 
 export const styWrapper = css`
   background-image: url(${Background});
