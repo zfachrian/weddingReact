@@ -37,6 +37,7 @@ export const styWrapper = css`
   }
 
   .main-font {
+    font-family: 'Work Sans', Arial, sans-serif; !important;
     margin-top: 12px;
     color: #fff !important;
 

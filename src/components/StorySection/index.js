@@ -12,12 +12,12 @@ function StorySection() {
   return (
     <Fragment>
       <div id="fh5co-couple-story" css={styWrapper}>
-      <div className="overlay" />
+         <div className="overlay" />
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-              <h2 className="main-font">#penANTIanAZKA</h2>
-              <p className="sub-title">Sewindu</p>
+              <h2 className="main-font">Our Story</h2>
+              <p className="sub-title">Kisah Sewindu #penANTIanAZKA</p>
             </div>
           </div>
           <div className="row">
