@@ -41,8 +41,8 @@ function FooterSection({ isInvitation }) {
                 </small>
                 <small className="block">
                   Song by{' '}
-                  <a href="https://www.youtube.com/watch?v=fb167KAxvrg" target="_blank" rel="noreferrer">
-                    Anandito Anisa - Pernikahan Impian
+                  <a href="https://www.youtube.com/watch?v=LgPqE3F8LBw" target="_blank" rel="noreferrer">
+                    CatOlin Violin Cover - Lavender's Blue Dilly Dilly
                   </a>
                 </small>
                 <small className="block">
