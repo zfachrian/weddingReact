@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 
 import StoryItem from './StoryItem';
 import { stories } from './stories-data';
+import { styWrapper } from './styles';
 
 function StorySection() {
   const renderStories = () => {
@@ -10,7 +11,7 @@ function StorySection() {
 
   return (
     <Fragment>
-      <div id="fh5co-couple-story">
+      <div id="fh5co-couple-story" css={styWrapper}>
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">

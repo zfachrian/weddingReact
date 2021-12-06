@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import WishesContainer from './WishesContainer';
+import { styWrapperItem} from './styles';
+import QRimg from '@assets/images/qrimg.jpg';
 
-function Angpao() {
+function Angpao({name}) {
   const [showResult, setShowResult] = useState(false);
   const renderResult = () => {
     if (!showResult){
@@ -18,7 +19,19 @@ function Angpao() {
             </button>
             <br></br>
             <div>
-            <WishesContainer />
+              <div className="item" css={styWrapperItem}>
+                <div className={`testimony-slide text-center`}>
+                  <br></br>
+                  <div class="text-center col-m-4">
+                    <img src={QRimg} alt="user" class="img-responsive center-block rounded" />
+                  </div>
+                  <div>
+                    <h1></h1>
+                  </div>
+                  <h4>BCA - 8905413747</h4>
+                  <span className="infoName">an. Azka Gilang Rifardi</span>
+                </div>
+              </div>
             </div>
           </div>
         );
